@@ -1,6 +1,4 @@
-body{color:#20B2AA; background-color:#000000}
-h2 {color: #87CEFA }
-h4 {color: #FFFFFF }
-h3{background-color:#0000CD}
-<div id="Videos"></div> 
-
+body {color:#20B2AA; background-color:#000000;}
+h2 {color: #87CEFA; }
+#Videos {background-color:#0000CD;}
+.Contact {color: #FFFFFF; }

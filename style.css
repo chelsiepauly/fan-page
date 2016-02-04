@@ -1,6 +1,43 @@
-body {color:#E0FFFF; background-color:#20B2AA;}
-h2 {color: #FFFACD; }
-#Videos {background-color:#4682B4;}
-.Contact {color: #000000; }
- 
+h1 {
+    font-family: Georgia, Times New Roman, serif;
+}
+
+body {
+    font-family: Futura, Geneva, sans-serif;
+    color: #E0FFFF;
+    background-color: #20B2AA;
+}
+
+h2 {
+    font-family: Georgia, Times New Roman, serif;
+    color: #FFFACD;
+}
+
+#Videos {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #4682B4;
+}
+
+.Contact {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000000;
+}
+
+div {
+    background-image: url(omamsymbolsthumb.jpg);
+    background-repeat: no-repeat;
+}
+
+footer {
+    font-size: small;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+nav {
+    font-weight: bold;
+    font-size: x-large;
+}
 

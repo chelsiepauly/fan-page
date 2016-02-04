@@ -1,4 +1,50 @@
-body {color:#20B2AA; background-color:#000000;}
-h2 {color: #87CEFA; }
-#Videos {background-color:#0000CD;}
-.Contact {color: #FFFFFF; }
+h1 {
+    font-family: Georgia, Times New Roman, serif;
+}
+
+body {
+    font-family: Futura, Geneva, sans-serif;
+    color: #20B2AA;
+    background-color: #000000;
+    background-image: url(background1.jpeg);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+p {
+    background-color: #000000;
+}
+
+h2 {
+    font-family: Georgia, Times New Roman, serif;
+    color: #87CEFA;
+}
+
+#Videos {
+    background-color: #0000CD;
+    font-family: Georgia, Times New Roman, serif;
+}
+
+.Contact {
+    font-family: Georgia, Times New Roman, serif;
+    color: #FFFFFF;
+}
+
+div {
+    background-image: url(omamsymbolsthumb.jpg);
+    background-repeat: no-repeat;
+}
+
+footer {
+    font-size: small;
+    font-style: italic;
+}
+
+nav {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+ul {
+    list-style-type: square;
+}

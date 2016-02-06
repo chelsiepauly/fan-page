@@ -1,5 +1,5 @@
 h1 {
-    font-family: Georgia, Times New Roman, serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 body {
@@ -16,17 +16,17 @@ p {
 }
 
 h2 {
-    font-family: Georgia, Times New Roman, serif;
+    font-family: Georgia, "Times New Roman", serif;
     color: #87CEFA;
 }
 
 #Videos {
     background-color: #0000CD;
-    font-family: Georgia, Times New Roman, serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 .Contact {
-    font-family: Georgia, Times New Roman, serif;
+    font-family: Georgia, "Times New Roman", serif;
     color: #FFFFFF;
 }
 
@@ -43,6 +43,7 @@ footer {
 nav {
     font-weight: bold;
     font-size: x-large;
+    text-align: center;
 }
 
 ul {

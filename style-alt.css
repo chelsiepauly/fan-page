@@ -1,12 +1,23 @@
 h1 {
+    text-align: right;
     font-family: Georgia, "Times New Roman", serif;
+    margin: 100px;
+    padding: 140px 40px;
+    background-color: #003366;
+    border-radius: 50px;
+    border: 15px solid #00FF99;
+    text-shadow: 2px 2px 1px #000;
+    background-image: url(images/finner.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    opacity: 0.85;
 }
 
 body {
     font-family: Futura, Geneva, sans-serif;
     color: #20B2AA;
     background-color: #000000;
-    background-image: url(background1.jpeg);
+    background-image: url(images/background1.jpeg);
     background-repeat: repeat-y;
     background-position: right;
 }
@@ -31,13 +42,15 @@ h2 {
 }
 
 div {
-    background-image: url(omamsymbolsthumb.jpg);
+    background-image: url(images/omamsymbolsthumb.jpg);
     background-repeat: no-repeat;
+    margin: 10px
 }
 
 footer {
     font-size: small;
     font-style: italic;
+    text-align: center;
 }
 
 nav {
@@ -48,4 +61,22 @@ nav {
 
 ul {
     list-style-type: square;
+}
+
+main {
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 10px;
+}
+
+p {
+    opacity: 0.75;
+    border: 5px solid #33CCFF;
+}
+
+hr {
+    border: 2px dashed #66FF33;
 }

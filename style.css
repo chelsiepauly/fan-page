@@ -1,35 +1,55 @@
 h1 {
+    font-size: xx-large;
     font-family: Georgia, "Times New Roman", serif;
+    margin: 75px;
+    padding: 75px 35px;
+    background-color: #006699;
+    border-radius: 15px;
+    text-shadow: 3px 3px 3px #666;
+    background-image: url(images/omamlogo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 body {
     font-family: Futura, Geneva, sans-serif;
     color: #E0FFFF;
     background-color: #20B2AA;
+    background-image: linear-gradient(to top, #0066FF, #20B2AA);
+    background-repeat: no-repeat;
+    margin: 30px;
+    padding: 5px 10px;
 }
 
 h2 {
+    text-transform: uppercase;
     font-family: Georgia, "Times New Roman", serif;
     color: #FFFACD;
 }
 
 #Videos {
     font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
     background-color: #4682B4;
 }
 
 .Contact {
+    text-transform: uppercase;
     font-family: Verdana, Geneva, sans-serif;
     color: #000000;
+    background-image: linear-gradient(to top, #FFFFFF, #20B2AA);
+    background-repeat: no-repeat;
 }
 
 div {
-    background-image: url(omamsymbolsthumb.jpg);
+    background-image: url(images/omamsymbolsthumb.jpg);
     background-repeat: no-repeat;
+    margin: 10px;
 }
 
 footer {
     font-size: small;
+    font-style: italic;
 }
 
 ul {
@@ -40,4 +60,13 @@ nav {
     font-weight: bold;
     font-size: x-large;
     text-align: center;
+}
+
+main {
+    margin: 30px;
+    padding: 5px 10px;
+}
+
+p {
+    text-indent: 5em;
 }

@@ -1,30 +1,51 @@
-h1 {
-    font-size: xx-large;
-    font-family: Georgia, "Times New Roman", serif;
-    margin: 75px;
-    padding: 75px 35px;
-    background-color: #006699;
-    border-radius: 15px;
-    text-shadow: 3px 3px 3px #666;
-    background-image: url(images/omamlogo.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
+#wrapper {
+    background-color: #20B2AA;
+    background-image: linear-gradient(to bottom, #0066FF, #20B2AA);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     font-family: Futura, Geneva, sans-serif;
     color: #E0FFFF;
-    background-color: #20B2AA;
+    background-color: #0066FF;
     background-image: linear-gradient(to top, #0066FF, #20B2AA);
     background-repeat: no-repeat;
-    margin: 30px;
+    margin: 70px;
+    margin-top: 200px;
     padding: 5px 10px;
+}
+
+header {
+    background-color: #006699;
+    background-image: url(images/omamlogo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 50px 160px;
+    margin: 0px;
+    position: fixed;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 3px 3px #666;
+    margin: 0;
+    padding: 10px;
 }
 
 h2 {
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", serif;
     color: #FFFACD;
+}
+
+main {
+    background-color: #000000;
+    background-image: linear-gradient(to right, #0066FF, #20B2AA);
+    margin-left: 160px;
+    padding: 10px;
 }
 
 #Videos {
@@ -41,32 +62,46 @@ h2 {
     background-repeat: no-repeat;
 }
 
-div {
-    background-image: url(images/omamsymbolsthumb.jpg);
-    background-repeat: no-repeat;
-    margin: 10px;
-}
-
-footer {
-    font-size: small;
-    font-style: italic;
-}
-
 ul {
-    list-style-type: circle;
+    list-style: none;
 }
 
 nav {
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
+    float: left;
+    width: 150px;
+    padding: 5px;
 }
 
-main {
-    margin: 30px;
-    padding: 5px 10px;
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FF0066;
+}
+
+nav a:visited {
+    color: aqua;
+}
+
+nav a:hover {
+    color: #33FF66;
+}
+
+div {
+    background-image: url(images/omamsymbolsthumb.jpg);
+    background-repeat: no-repeat;
 }
 
 p {
     text-indent: 5em;
+    margin-top: 60px;
+    position: static;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
 }

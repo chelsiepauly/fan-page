@@ -1,30 +1,29 @@
 body {
     font-family: Futura, Geneva, sans-serif;
     color: #E0FFFF;
-    background-color: #0066FF;
-    background-image: linear-gradient(to top, #0066FF, #20B2AA);
-    background-repeat: no-repeat;
+    background-color: #3B3B3B;
+    background-image: url(images/background1.jpeg);
     margin: 70px;
     margin-top: 50px;
     padding: 5px 10px;
 }
 
 header {
-    background-color: #006699;
+    background-color: #3B3B3B;
 }
 
 h1 {
-    font-size: x-large;
+    font-size: xx-large;
     font-family: Georgia, "Times New Roman", serif;
     text-shadow: 3px 3px 3px #666;
-    background-color: #006699;
+    background-color: #3B3B3B;
     background-image: url(images/omamlogo.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    padding: 60px;
+    padding: 50px;
     margin: 0px;
-    position: fixed;
     width: 66%;
+    position: relative;
 }
 
 h2 {
@@ -35,7 +34,7 @@ h2 {
 
 main {
     background-color: #000000;
-    background-image: linear-gradient(to right, #0066FF, #20B2AA);
+    background-image: linear-gradient(to bottom, #19AFD0, #3B3B3B);
     margin-left: 160px;
     margin-top: 170px;
     padding: 10px;
@@ -44,13 +43,13 @@ main {
 #Videos {
     font-family: Verdana, Geneva, sans-serif;
     text-transform: uppercase;
-    background-color: #4682B4;
+    background-color: #3B3B3B;
 }
 
 .Contact {
     text-transform: uppercase;
     font-family: Verdana, Geneva, sans-serif;
-    color: #000000;
+    color: #FDB930;
 }
 
 ul {
@@ -61,39 +60,37 @@ nav {
     float: left;
     width: 150px;
     padding: 5px;
-    margin-top: 170px;
-    display: block;
+    margin-top: 180px;
     text-decoration: none;
 }
 
 nav a {
-    display: block;
     text-decoration: none;
 }
 
 nav a:link {
-    color: #FF0066;
+    color: #19AFD0;
 }
 
 nav a:visited {
-    color: aqua;
+    color: #FDB930;
 }
 
 nav a:hover {
-    color: #33FF66;
+    color: #BBDC0E;
 }
 
 div {
     background-image: url(images/omamsymbolsthumb.jpg);
     background-repeat: no-repeat;
-    margin-top: 120px;
+    margin-top: 20px;
     padding: 5px;
 }
 
 p {
     text-indent: 5em;
-    margin-top: 60px;
-    position: static;
+    margin-top: 30px;
+    display: inline-block;
 }
 
 footer {
@@ -103,11 +100,84 @@ footer {
 }
 
 #wrapper {
-    background-color: #20B2AA;
-    background-image: linear-gradient(to bottom, #0066FF, #20B2AA);
+    background-color: #3B3B3B;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     min-width: 960px;
     max-width: 2048px;
+}
+
+body,
+header,
+h1,
+h2,
+main,
+#Videos,
+#wrapper,
+.Contact,
+nav,
+footer,
+figure,
+figcaption,
+aside,
+section,
+article {
+    display: block;
+}
+
+@media only screen and (max-width: 64em) {
+    body {
+        margin: 0;
+    }
+    #wrapper {
+        width: auto;
+    }
+    main {
+        margin-left: 0;
+    }
+    nav {
+        float: none;
+        width: auto;
+    }
+    #mobile {
+        display: none;
+    }
+    #desktop {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 64em) {
+    .mobile-only {
+        display: none;
+    }
+    body {
+        margin: 0;
+        background-color: #3B3B3B;
+        background-image: none;
+    }
+    #wrapper {
+        min-width: 0;
+        width: auto;
+    }
+    main {
+        margin-left: 0;
+    }
+    nav {
+        float: none;
+        width: auto;
+        padding: 0.5em;
+    }
+    nav ul {
+        display: inline;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-right: 0.75em;
+        padding-left: 0.75em;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
 }
